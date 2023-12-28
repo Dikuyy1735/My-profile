@@ -1,1 +1,56 @@
 # My-profile
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.scss">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#">DIKUYY</a>
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="#"  class="active" style="--navAni:1">Home</a></li>
+                <li><a href="#" style="--navAni:2">About</a></li>
+                <li><a href="#" style="--navAni:3">Skills</a></li>
+                <li><a href="#" style="--navAni:4">Portfolio</a></li>
+                <li><a href="#" style="--navAni:5">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main">
+            <div class="images">
+                <img src="dikaimage.png" alt="" class="img-w">
+            </div>
+            <div class="detail">
+                <h3>Hi, I'm</h3>
+                <h1><span>Dika</span> Dwi</span> Pratama</h1>   
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/dika-dwi-pratama-2674232a7" style="--socialAni:1"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://t.me/@dikayykuyy" style="--socialAni:2"><i class='bx bxl-telegram'></i></a>
+                    <a href="https://github.com/Dikuyy1735" style="--socialAni:3"><i class='bx bxl-github'></i></a>
+                    <a href="https://youtube.com/@dikadwipratama1731?si=7g1rF1wSm2a8iHmk style="--socialAni:4"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
